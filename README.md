@@ -9,7 +9,7 @@ Find a school in any area and perhaps any properties available on trademe nearby
 git clone https://github.com/sherlyc/Schools.git
 npm i
 npm run knex migrate:latest
-npm run knex migrate seed:run
+npm run knex seed:run
 npm start
 open in your browser:  http://localhost:3000
 ```
